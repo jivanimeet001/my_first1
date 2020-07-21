@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY WEBSITE</title>
+	<meta name="viewport" content="width=device-width,intital-scale=1">
+	<link rel="stylesheet" type="text/css" href="demo.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="hero"> 
+	<div class="nav-bar">
+	<div class="nav-logo">
+				<img src="alarm_clock_PNG66.png">
+	</div>
+    <div class="nav-links" id="nav-links">
+    	<i class="fa fa-close" onclick="closeMenu()" ></i>
+	 <ul>
+					<a href="#"><li>Home</li></a>
+					<a href="#"><li>About</li></a>
+					<a href="#"><li>Image</li></a>
+					
+     </ul>
+     <button type="button" class="btn">sign up</button>
+	</div>
+	<i class="fa fa-bars" onclick="showMenu()"></i>
+	</div>
+        <div class="banner-title">
+        	        <h1> A great power <span>comes with <br> a great </span> responsibility</h1>
+        <button type="button" class="button">read more...</button>
+        </div>
+        <div class="vertical-bar">
+        	<div class="search-icon">
+        		<i class="fa fa-bars" aria-hidden="true"></i>
+        		<i class="fa fa-search" aria-hidden="true"></i>
+        	</div>
+        	<div class="social-icon">
+        		<i class="fa fa-facebook" aria-hidden="true"></i><i class="fa fa-instagram" aria-hidden="true"></i><i class="fa fa-twitter" aria-hidden="true"></i><i class="fa fa-pinterest" aria-hidden="true"></i>
+        	</div>
+
+        </div>
+        <div class="notifications"> 
+              <div class="content">
+              	<small>For more updates subscribe marvels technology chanel youtube.</small>
+              	<p><a href="">PREV</a><a href="">NEXT</a></p>
+              </div>
+              <div class="notifications-img	">
+              	<img src="book_PNG51067.png">
+              </div>
+
+        </div>
+
+    </div>
+   <script type="text/javascript">
+		var show=document.getElementById('nav-links')
+		function showMenu() {
+			show.style.right="0";
+		}
+		function closeMenu() {
+			show.style.right="-200px";
+		}
+
+	</script>
+</body>
+
+</html>
